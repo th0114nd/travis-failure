@@ -1,3 +1,4 @@
 PROJECT = travis-failure
 
-include erlang.mk
+only:
+	erlc src/addition.erl
